@@ -5,7 +5,8 @@
 
     .nav_bar,
     .menubar UL,
-    .section1_container {
+    .section1_container,
+    .section_features {
         flex-direction: column;
 
     }
@@ -24,9 +25,18 @@
     .banner_title h1,
     .banner_title p,
     .section1_title,
-    .section1_para {
+    .section1_para,
+    .sec2_fea_title,
+    .sec2-features_img img {
         width: 100%;
+    }
 
+    .sec2_fea_blog {
+        width: 80%;
+    }
+
+    .image_collab {
+        width: 50%;
     }
 
     .banner_title h1 {
@@ -39,9 +49,12 @@
         padding: 10px;
     }
 
-    .section1_description {
+    .section1_description,
+    .sec2_features_description,
+    .sec2-features_img,
+    .section_features {
         margin-top: 30px;
-        padding: 0px;
+        padding: 20px;
     }
 
 }
@@ -49,7 +62,8 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
     .nav_bar,
-    .section1_container {
+    .section1_container,
+    .section_features {
         flex-direction: column;
     }
 
@@ -68,13 +82,32 @@
         width: 100%;
     }
 
+    .sec2_fea_blog {
+        width: 90%;
+    }
+
+
     .banner_title h1 {
         margin-top: 50px;
     }
 
+    .sec2_fea_title {
+        width: 50%;
+    }
+
     .banner img {
         width: 100%;
-        margin: 0;
+    }
+
+    .sec2-features_img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sec2-features_img {
+        width: 100%;
+        text-align: center;
+        padding: 0;
     }
 
     .section1_img {
@@ -83,9 +116,10 @@
         padding: 10px;
     }
 
-    .section1_description {
+    .section1_description,
+    .sec2_features_description {
         margin-top: 30px;
-        padding: 0px;
+        padding: 20px;
     }
 
 }
