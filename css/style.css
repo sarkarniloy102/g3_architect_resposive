@@ -156,3 +156,10 @@ main {
 }
 
 /* end of section_01 */
+
+/* section_02____section features part start */
+.section_features {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
