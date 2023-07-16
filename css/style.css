@@ -43,3 +43,45 @@
     color: #131313;
     font-weight: 700;
 }
+
+/* end of navbar */
+
+/* start banner part */
+
+.banner_title {
+    text-align: center;
+}
+
+.banner_title h1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    color: #131313;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner_title p {
+    width: 60%;
+    margin: 10px auto 50px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner_title button {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 23px;
+    margin-bottom: 70px;
+}
+
+.banner img {
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
