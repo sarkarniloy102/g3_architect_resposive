@@ -27,7 +27,9 @@
     .section1_title,
     .section1_para,
     .sec2_fea_title,
-    .sec2-features_img img {
+    .sec2-features_img img,
+    .section3_container h1,
+    .section3_container p {
         width: 100%;
     }
 
@@ -52,10 +54,13 @@
     .section1_description,
     .sec2_features_description,
     .sec2-features_img,
-    .section_features {
+    .section_features,
+    .section3_container,
+    .section3_container {
         margin-top: 30px;
         padding: 20px;
     }
+
 
 }
 
@@ -78,14 +83,15 @@
     }
 
     .banner_title h1,
-    .banner_title p {
+    .banner_title p,
+    .section3_container h1,
+    .section3_container p {
         width: 100%;
     }
 
     .sec2_fea_blog {
         width: 90%;
     }
-
 
     .banner_title h1 {
         margin-top: 50px;
@@ -102,6 +108,10 @@
     .sec2-features_img {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .section3_container {
+        padding: 20px;
     }
 
     .sec2-features_img {
