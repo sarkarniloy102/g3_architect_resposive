@@ -6,7 +6,8 @@
     .nav_bar,
     .menubar UL,
     .section1_container,
-    .section_features {
+    .section_features,
+    .section04_container {
         flex-direction: column;
 
     }
@@ -17,7 +18,8 @@
         margin-bottom: 20px;
     }
 
-    .menubar ul li {
+    .menubar ul li,
+    .section04_container {
 
         padding: 5px;
     }
@@ -29,7 +31,8 @@
     .sec2_fea_title,
     .sec2-features_img img,
     .section3_container h1,
-    .section3_container p {
+    .section3_container p,
+    .facts {
         width: 100%;
     }
 
@@ -61,6 +64,11 @@
         padding: 20px;
     }
 
+    .facts {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -68,7 +76,8 @@
 
     .nav_bar,
     .section1_container,
-    .section_features {
+    .section_features,
+    .section04_container {
         flex-direction: column;
     }
 
@@ -110,7 +119,8 @@
         margin: 0 auto;
     }
 
-    .section3_container {
+    .section3_container,
+    .section04_container {
         padding: 20px;
     }
 
@@ -132,4 +142,9 @@
         padding: 20px;
     }
 
+    .facts {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }

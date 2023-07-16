@@ -235,7 +235,7 @@ main {
 .section3_container {
     padding-left: 180px;
     margin-top: 100px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 .section3_container h1 {
@@ -249,4 +249,18 @@ main {
     width: 520px;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* section 4 starts */
+
+.section04_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 120px;
+}
+
+.facts {
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 30px;
 }
