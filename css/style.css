@@ -260,7 +260,30 @@ main {
 }
 
 .facts {
+    width: 240px;
     text-align: center;
     border: 1px solid #FF900E;
     padding: 30px;
+    border-radius: 8px;
+}
+
+/* section-05 start */
+.section5_container {
+    border: 1px solid blue;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section5_title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section5_para {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    width: 500px;
+    margin: 0 auto;
 }
