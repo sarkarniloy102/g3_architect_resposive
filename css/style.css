@@ -260,7 +260,7 @@ main {
 }
 
 .facts {
-    width: 240px;
+    width: 180px;
     text-align: center;
     border: 1px solid #FF900E;
     padding: 30px;
@@ -293,4 +293,14 @@ main {
 .section06_container {
     display: flex;
     justify-content: space-around;
+}
+
+.foter {
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 40px 0px;
+    margin: 100px 180px;
 }
