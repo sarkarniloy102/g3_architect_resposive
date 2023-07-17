@@ -269,9 +269,9 @@ main {
 
 /* section-05 start */
 .section5_container {
-    border: 1px solid blue;
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .section5_title {
@@ -286,4 +286,11 @@ main {
     color: #727272;
     width: 500px;
     margin: 0 auto;
+}
+
+/* section-05 end */
+/* section-06 start */
+.section06_container {
+    display: flex;
+    justify-content: space-around;
 }
